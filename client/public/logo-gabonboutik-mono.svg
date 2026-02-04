@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+  <defs>
+    <pattern id="weave-mono" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 10 L10 0 L20 10 L10 20 Z" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Group for the Icon (Left) -->
+  <g transform="translate(50, 20)">
+    <!-- Items inside the basket (behind the front wall) -->
+    
+    <!-- Manioc -->
+    <path d="M150 150 Q180 50 220 40 Q240 35 250 60 Q230 150 200 180" fill="#666" stroke="#333" stroke-width="2"/>
+    <path d="M160 140 L170 145 M180 110 L190 115 M200 80 L210 85" stroke="#FFF" stroke-width="2"/>
+
+    <!-- Smartphone -->
+    <rect x="80" y="60" width="70" height="120" rx="5" fill="#333" stroke="#000" stroke-width="2" transform="rotate(-15 115 120)"/>
+    <rect x="85" y="65" width="60" height="100" rx="2" fill="#999" transform="rotate(-15 115 120)"/>
+
+    <!-- Wax Pagne -->
+    <path d="M220 100 Q280 80 320 120 L300 200 L200 180 Z" fill="#333"/>
+    <circle cx="250" cy="130" r="10" fill="#FFF"/>
+    <circle cx="280" cy="150" r="10" fill="#999"/>
+    <path d="M230 110 L240 120 M260 140 L270 150" stroke="#FFF" stroke-width="2"/>
+
+    <!-- The Basket -->
+    <path d="M50 150 
+             C 50 150, 100 140, 350 150 
+             L 350 300 
+             Q 350 350 200 350 
+             Q 50 350 50 300 
+             Z" 
+          fill="#000" stroke="#000" stroke-width="5"/>
+    
+    <!-- Weave texture overlay -->
+    <path d="M50 150 
+             C 50 150, 100 140, 350 150 
+             L 350 300 
+             Q 350 350 200 350 
+             Q 50 350 50 300 
+             Z" 
+          fill="url(#weave-mono)"/>
+
+    <!-- Rim of the basket -->
+    <path d="M50 150 C 50 130, 350 130, 350 150 C 350 170, 50 170, 50 150" fill="none" stroke="#FFF" stroke-width="4"/>
+  </g>
+
+  <!-- Text (Right) -->
+  <g transform="translate(420, 100)">
+    <text x="0" y="150" font-family="Montserrat, Inter, sans-serif" font-weight="bold" font-size="110" fill="#000">
+      GABON<tspan fill="#666">BOUTIK</tspan>
+    </text>
+    <text x="50" y="240" font-family="Brush Script MT, cursive" font-size="80" fill="#333">
+      Marché Local
+    </text>
+  </g>
+</svg>
